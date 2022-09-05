@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eejercicio de Introducción a HTML en OpenBootCamp</HTml></title>
+</head>
+<body>
+    <div>
+    <p>Este es mi primer comentario de dos líneas</p>
+    <p>Aprendiendo a documentar mi código en OpenBootcamp</p>
+    </div>
+    <div>
+        <h1>Mis videos favoritos</h1>
+        <ol>
+            <li><p><a href="https://www.youtube.com/watch?v=w6Hl6JgQD8U" target="_blank">Gato Trotsky</a></p><br><iframe width="560" height="315" src="https://www.youtube.com/embed/w6Hl6JgQD8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <li><p><a href="https://www.youtube.com/watch?v=TQtSmYMTN_o" target="_blank">Los Mejores Videos de Gatos Chistosos #431</a></p><br> <iframe width="560" height="315" src="https://www.youtube.com/embed/TQtSmYMTN_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <li><p><a href="https://www.youtube.com/watch?v=V8em5AzrVLc" target="_blank">HELADO PARA GATOS 2</a></p><br><iframe width="560" height="315" src="https://www.youtube.com/embed/V8em5AzrVLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </ol>
+    </div>
+</body>
+</html>
