@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="prueba" content="ejercicio">
+<meta name="keywords" content="HTML5">
+<title>Ejercicio 02 - Formularios en HTMLe</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Ejercicio 02 - Formularios en HTMLe</h1>
+<div>
+<form action="/" method="get">
+<label for="nombre">Nombre</label>
+<input name="nombre" type="text" placeholder="Nombre"><br><br>
+</div>
+<div>
+<label for="edad">Edad</label>
+<input name="Edad" type="number" placeholder="Edad" min="10" max="60">
+<br><br></div>
+<div>
+<label for="frase-favorita">Frase favorita</label>
+<textarea name="comentario" type="text" placeholder="ingrese frase favorita"></textarea>
+<br><br></div>
+<div><button type="enviar" name="enviar">Enviar</button>
+<button type="reset" name="reset">Reset</button>
+</div>
+</body>
+</html>
