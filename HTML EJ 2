@@ -14,5 +14,6 @@
     <textarea name="comentario" type="text" placeholder="ingrese frase favorita"></textarea><br><br>
     <button type="enviar" name="enviar">Enviar</button>
     <button type="reset" name="reset">Reset</button>
+  </form>
 </body>
 </html>
