@@ -1,0 +1,22 @@
+button.boton::after {
+    content: ' Pasa por encima ' ;
+    font-size: x-large; 
+}
+
+button.boton:hover::before{
+    content: ' hecho ' ;
+    font-size: x-large;
+    }
+
+button.boton:hover::after{
+    content: none ;
+}
+.boton{
+    background-color: pink;
+    color: black;
+}
+.boton:hover {
+    color: white;
+    background-color: green;
+}
+
