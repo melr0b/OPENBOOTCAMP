@@ -1,0 +1,127 @@
+* {  
+    font-family: arial;
+}
+
+body {
+    padding: 10px;
+}
+.login {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    background-color:  #161717;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    align-items: flex-start;
+    max-width: 625px;
+    min-width: 340px;
+    }
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.botongoogle {
+    background-color: violet; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 48px;
+    width: 300px;
+    padding: 2px;
+    cursor: pointer;
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.img-google {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    margin-left: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.botontwitter {
+    background-color: violet; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 48px;
+    width: 48px;
+    padding: 2px;
+    cursor: pointer;
+
+}
+.botontwitter:hover {
+    opacity: 0.7;
+}
+
+.botongoogle:hover {
+    opacity: 0.7;
+}
+
+hr {
+    width: 43%;
+    }
+.separador {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.etiquetas {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 95%;
+
+}
+
+.botonsubmit {
+    background-color: pink;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.botonsubmit:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.etiquetas input.caca  {
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 20px;
+    background-color: #212121 ;
+    color: white;
+    width: 100%;
+}
+.nombreuser {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.etiquetas input:hover {
+    background-color: #454045;
+    color:white;
+}
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
