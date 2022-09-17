@@ -1,0 +1,32 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.principal {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.lateral {
+    padding: 10px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main {
+    padding: 10px;
+    background-color: rgb(84, 84, 192);
+    flex-grow: 1;
+}
+@media (max-width: 640px) {
+    .principal {
+        flex-direction: column-reverse;
+        }
+    .lateral {
+        flex-direction: row;
+    }
+}
