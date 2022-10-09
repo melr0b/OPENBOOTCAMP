@@ -1,0 +1,14 @@
+{
+  "name": "entrega1",
+  "version": "1.0.0",
+  "description": "trabajo1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "trabajo"
+  ],
+  "author": "mimi",
+  "license": "ISC"
+}
